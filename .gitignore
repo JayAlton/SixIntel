@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# VSCode settings
+.vscode/
+
+# macOS + Linux system files
+.DS_Store
+*.swp
+
+# PyCharm
+.idea/
+
+# Logs
+*.log
+
+# Selenium downloads (optional)
+*.crdownload
+
+# Cache + temporary data
+*.sqlite3
+*.db
+*.bak
+*.tmp
+.cache/
+pip-wheel-metadata/
+
+# Flask-specific
+instance/
+*.pid
+
+# Test results
+htmlcov/
+.covera
