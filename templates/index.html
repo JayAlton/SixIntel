@@ -1,30 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>SixIntel | R6 Standings</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-</head>
-<body class="container mt-5">
-    <h1 class="mb-4">Rainbow Six Pro League Standings</h1>
-    <table class="table table-striped">
-        <thead>
-            <tr>
-                <th>Team</th>
-                <th>Wins</th>
-                <th>Losses</th>
-                <th>Points</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for row in standings %}
-            <tr>
-                <td>{{ row.team }}</td>
-                <td>{{ row.wins }}</td>
-                <td>{{ row.losses }}</td>
-                <td>{{ row.points }}</td>
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>
-</body>
-</html>
+{% extends "layout.html" %}
+{% block title %}Welcome | SixIntel{% endblock %}
+{% block content %}
+<h1 class="text-3xl font-bold mb-6">Welcome to SixIntel</h1>
+<p class="mb-4">Choose your region:</p>
+<div class="space-x-4">
+  <a href="/na" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">North America</a>
+  <a href="/eu" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded">Europe</a>
+</div>
+{% endblock %}

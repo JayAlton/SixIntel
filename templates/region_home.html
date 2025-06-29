@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block title %}{{ region }} Home | SixIntel{% endblock %}
+{% block content %}
+<h1 class="text-3xl font-bold mb-6">{{ region }} Region</h1>
+<ul class="space-y-2">
+  <li><a href="/{{ region|lower }}/standings" class="text-blue-600 hover:underline">View Standings</a></li>
+  <li><a href="/{{ region|lower }}/stats" class="text-blue-600 hover:underline">View Stats</a></li>
+</ul>
+{% endblock %}
+
