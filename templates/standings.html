@@ -4,20 +4,24 @@
 <h1 class="text-2xl font-bold mb-4">{{ region }} Standings</h1>
 <table class="w-full border-collapse">
   <thead>
-    <tr class="bg-gray-200">
+    <tr class="bg-gray-200 text-left">
+      <th class="p-2 border">#</th>
       <th class="p-2 border">Team</th>
-      <th class="p-2 border">Wins</th>
-      <th class="p-2 border">Losses</th>
-      <th class="p-2 border">Points</th>
+      <th class="p-2 border">Record</th>
+      <th class="p-2 border">RND</th>
+      <th class="p-2 border">RD</th>
+      <th class="p-2 border">Pts</th>
     </tr>
   </thead>
   <tbody>
     {% for team in standings %}
     <tr class="hover:bg-gray-100">
+      <td class="p-2 border">{{ loop.index }}</td>
       <td class="p-2 border">{{ team.team }}</td>
-      <td class="p-2 border">{{ team.wins }}</td>
-      <td class="p-2 border">{{ team.losses }}</td>
-      <td class="p-2 border">{{ team.points }}</td>
+      <td class="p-2 border">{{ team.record }}</td>
+      <td class="p-2 border">{{ team.rnd }}</td>
+      <td class="p-2 border">{{ team.rd }}</td>
+      <td class="p-2 border">{{ team.points }}p</td>
     </tr>
     {% endfor %}
   </tbody>
