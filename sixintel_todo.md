@@ -10,10 +10,11 @@
 
 ### 🔹 Data Display
 - [x] Create standings pages for NA and EU
-- [ ] Create stats pages (placeholder for now)
+- [x] Create stats pages 
 
 ### 🔹 Manual Data Management
 - [x] Use local JSON files for standings (`na_standings.json`, `eu_standings.json`)
+- [] Add all players on JSON files
 - [ ] Add a command-line script to update standings JSON interactively
 - [ ] (Optional) Create admin web form to update standings from the browser
 
@@ -32,7 +33,8 @@
 
 ### 🔹 Polish Layout
 - [x] Use TailwindCSS for styling
-- [ ] Add league logos / team icons
+- [x] Add league logos / team icons
+- [ ] Add country flags for players
 - [ ] Make tables sortable or filterable (JS or Alpine.js)
 
 ### 🔹 Mobile Support
@@ -59,6 +61,7 @@
 - [ ] Prepare app for production using `gunicorn` or `waitress`
 - [ ] Host on AWS (EC2 or Lightsail) or Linode
 - [ ] Set up custom domain + HTTPS (via Certbot)
+- [ ] Run ads
 
 ## 📝 Project Management
 

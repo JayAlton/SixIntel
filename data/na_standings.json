@@ -1,5 +1,6 @@
 [
   {
+    "logo": "logos/na/DarkZero.png",
     "team": "DarkZero",
     "record": "6-0-0-0",
     "rnd": "42-19",
@@ -7,6 +8,7 @@
     "points": "18"
   },
   {
+    "logo": "logos/na/Shopify Rebellion.png",
     "team": "Shopify Rebellion",
     "record": "5-1-0-0",
     "rnd": "43-24",
@@ -14,6 +16,7 @@
     "points": "17"
   },
   {
+    "logo": "logos/na/Spacestation Gaming.png",
     "team": "Spacestation Gaming",
     "record": "4-0-1-1",
     "rnd": "37-26",
@@ -21,6 +24,7 @@
     "points": "13"
   },
   {
+    "logo": "logos/na/M80.png",
     "team": "M80",
     "record": "4-0-0-2",
     "rnd": "33-26",
@@ -28,6 +32,7 @@
     "points": "12"
   },
   {
+    "logo": "logos/na/Oxygen Esports.png",
     "team": "Oxygen Esports",
     "record": "3-0-0-3",
     "rnd": "29-35",
@@ -35,6 +40,7 @@
     "points": "9"
   },
   {
+    "logo": "logos/na/Wildcard.png",
     "team": "Wildcard",
     "record": "1-1-0-4",
     "rnd": "33-39",
@@ -42,6 +48,7 @@
     "points": "5"
   },
   {
+    "logo": "logos/na/LFO.png",
     "team": "LFO",
     "record": "1-1-0-4",
     "rnd": "27-39",
@@ -49,6 +56,7 @@
     "points": "5"
   },
   {
+    "logo": "logos/na/Cloud9.png",
     "team": "Cloud9",
     "record": "1-0-1-4",
     "rnd": "30-40",
@@ -56,6 +64,7 @@
     "points": "4"
   },
   {
+    "logo": "logos/na/ENVY.png",
     "team": "ENVY",
     "record": "1-0-1-4",
     "rnd": "25-41",
@@ -63,6 +72,7 @@
     "points": "4"
   },
   {
+    "logo": "logos/na/Team Cruelty.png",
     "team": "Team Cruelty",
     "record": "1-0-0-5",
     "rnd": "28-38",

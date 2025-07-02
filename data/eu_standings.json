@@ -1,5 +1,6 @@
 [
   {
+    "logo": "logos/eu/TeamSecret.png",
     "team": "Team Secret",
     "record": "3-0-1-0",
     "rnd": "27-21",
@@ -7,6 +8,7 @@
     "points": "10"
   },
   {
+    "logo": "logos/eu/TeamFalcons.png",
     "team": "Team Falcons",
     "record": "3-0-0-1",
     "rnd": "23-13",
@@ -14,6 +16,7 @@
     "points": "9"
   },
   {
+    "logo": "logos/eu/G2Esports.png",
     "team": "G2 Esports",
     "record": "2-1-1-0",
     "rnd": "29-20",
@@ -21,6 +24,7 @@
     "points": "9"
   },
   {
+    "logo": "logos/eu/Virtus.pro.png",
     "team": "Virtus.pro",
     "record": "2-1-0-1",
     "rnd": "27-19",
@@ -28,6 +32,7 @@
     "points": "8"
   },
   {
+    "logo": "logos/eu/MACKOEsports.png",
     "team": "MACKO Esports",
     "record": "1-2-0-1",
     "rnd": "26-26",
@@ -35,6 +40,7 @@
     "points": "7"
   },
   {
+    "logo": "logos/eu/TeamBDS.png",
     "team": "Team BDS",
     "record": "1-1-1-1",
     "rnd": "26-24",
@@ -42,6 +48,7 @@
     "points": "6"
   },
   {
+    "logo": "logos/eu/Fnatic.png",
     "team": "Fnatic",
     "record": "1-0-1-2",
     "rnd": "23-26",
@@ -49,6 +56,7 @@
     "points": "4"
   },
   {
+    "logo": "logos/eu/WolvesEsports.png",
     "team": "Wolves Esports",
     "record": "1-0-0-3",
     "rnd": "18-26",
@@ -56,6 +64,7 @@
     "points": "3"
   },
   {
+    "logo": "logos/eu/Gen.GEsports.png",
     "team": "Gen.G Esports",
     "record": "0-1-1-2",
     "rnd": "19-29",
@@ -63,6 +72,7 @@
     "points": "3"
   },
   {
+    "logo": "logos/eu/WYLDE.png",
     "team": "WYLDE",
     "record": "0-0-1-3",
     "rnd": "15-29",
