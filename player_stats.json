@@ -1,0 +1,21 @@
+[
+  {
+    "country": "USA",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/na/Cloud9.png",
+    "player": "Dream",
+    "rating": "0.75",
+    "k_d": "34-52 (-18)",
+    "entry": "3-3 (+0)",
+    "maps": 7,
+    "kost": "55%",
+    "kpr": "0.49",
+    "srv": "28%",
+    "clutches": 2,
+    "plants": 2,
+    "disables": 0,
+    "hs_percent": 54,
+    "attacker": "Ace",
+    "defender": "Smoke"
+  }
+]

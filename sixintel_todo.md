@@ -14,8 +14,10 @@
 
 ### 🔹 Manual Data Management
 - [x] Use local JSON files for standings (`na_standings.json`, `eu_standings.json`)
-- [] Add all players on JSON files
-- [ ] Add a command-line script to update standings JSON interactively
+- [x] Add all players on JSON files
+- [x] Add teams to players on JSON files
+- [x] Add a command-line script to update standings JSON interactively
+- [ ] Make the script update everything incluing KOST KPR, etc
 - [ ] (Optional) Create admin web form to update standings from the browser
 
 ## 🛠 Phase 2: Automation & Scraping
@@ -34,7 +36,7 @@
 ### 🔹 Polish Layout
 - [x] Use TailwindCSS for styling
 - [x] Add league logos / team icons
-- [ ] Add country flags for players
+- [x] Add country flags for players
 - [ ] Make tables sortable or filterable (JS or Alpine.js)
 
 ### 🔹 Mobile Support

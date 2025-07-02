@@ -1,6 +1,8 @@
 [
   {
     "country": "Russia",
+    "country_flag": "flags/Russia.png",
+    "team_logo": "logos/eu/Virtus.pro.png",
     "player": "p4sh4",
     "rating": "1.42",
     "k_d": "80-38 (+42)",
@@ -14,10 +16,12 @@
     "disables": 0,
     "hs_percent": 46,
     "attacker": "Twitch",
-    "defender": "J\u00e4ger"
+    "defender": "Jager"
   },
   {
     "country": "Germany",
+    "country_flag": "flags/Germany.png",
+    "team_logo": "logos/eu/TeamSecret.png",
     "player": "jume",
     "rating": "1.31",
     "k_d": "61-34 (+27)",
@@ -35,6 +39,8 @@
   },
   {
     "country": "Russia",
+    "country_flag": "flags/Russia.png",
+    "team_logo": "logos/eu/Virtus.pro.png",
     "player": "Always",
     "rating": "1.27",
     "k_d": "66-49 (+17)",
@@ -52,6 +58,8 @@
   },
   {
     "country": "Netherlands",
+    "country_flag" : "flags/Netherlands.png",
+    "team_logo": "logos/eu/TeamBDS.png",
     "player": "Freq",
     "rating": "1.27",
     "k_d": "71-45 (+26)",
@@ -69,6 +77,8 @@
   },
   {
     "country": "UK",
+    "country_flag": "flags/UK.png",
+    "team_logo": "logos/eu/G2Esports.png",
     "player": "Doki",
     "rating": "1.22",
     "k_d": "69-47 (+22)",
@@ -86,6 +96,8 @@
   },
   {
     "country": "France",
+    "country_flag": "flags/France.png",
+    "team_logo": "logos/eu/TeamFalcons.png",
     "player": "LikEfac",
     "rating": "1.22",
     "k_d": "51-32 (+19)",
@@ -103,6 +115,8 @@
   },
   {
     "country": "UK",
+    "country_flag": "flags/UK.png",
+    "team_logo": "logos/eu/TeamSecret.png",
     "player": "Yuzus",
     "rating": "1.14",
     "k_d": "38-30 (+8)",
@@ -120,6 +134,8 @@
   },
   {
     "country": "Portugal",
+    "country_flag": "flags/Portugal.png",
+    "team_logo": "logos/eu/TeamSecret.png",
     "player": "Savage",
     "rating": "1.14",
     "k_d": "45-33 (+12)",
@@ -137,6 +153,8 @@
   },
   {
     "country": "France",
+    "country_flag"  : "flags/France.png",
+    "team_logo": "logos/eu/TeamSecret.png",
     "player": "BriD",
     "rating": "1.11",
     "k_d": "34-26 (+8)",
@@ -154,6 +172,8 @@
   },
   {
     "country": "France",
+    "country_flag": "flags/France.png",
+    "team_logo": "logos/eu/TeamSecret.png",
     "player": "Mowwwgli",
     "rating": "1.11",
     "k_d": "55-49 (+6)",
@@ -171,6 +191,8 @@
   },
   {
     "country": "France",
+    "country_flag": "flags/France.png",
+    "team_logo": "logos/eu/TeamFalcons.png",
     "player": "Shaiiko",
     "rating": "1.10",
     "k_d": "46-35 (+11)",
@@ -188,6 +210,8 @@
   },
   {
     "country": "Sweden",
+    "country_flag": "flags/France.png",
+    "team_logo": "logos/eu/TeamSecret.png",
     "player": "NoaUrz",
     "rating": "1.10",
     "k_d": "49-40 (+9)",
@@ -205,6 +229,8 @@
   },
   {
     "country": "Finland",
+    "country_flag": "flags/Finland.png",
+    "team_logo": "logos/eu/Fnatic.png",
     "player": "Jeggz",
     "rating": "1.10",
     "k_d": "55-47 (+8)",
@@ -222,6 +248,8 @@
   },
   {
     "country": "UK",
+    "country_flag": "flags/UK.png",
+    "team_logo": "logos/eu/TeamSecret.png",
     "player": "Adrian",
     "rating": "1.08",
     "k_d": "40-31 (+9)",
@@ -239,6 +267,8 @@
   },
   {
     "country": "Italy",
+    "country_flag" : "flags/Italy.png", 
+    "team_logo": "logos/eu/Fnatic.png",
     "player": "Sarks",
     "rating": "1.08",
     "k_d": "56-50 (+6)",
@@ -256,6 +286,8 @@
   },
   {
     "country": "Slovakia",
+    "country_flag"  : "flags/Slovakia.png",
+    "team_logo": "logos/eu/WYLDE.png",
     "player": "GARREN",
     "rating": "1.08",
     "k_d": "53-45 (+8)",
@@ -273,6 +305,8 @@
   },
   {
     "country": "USA",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/eu/G2Esports.png",
     "player": "STOMPN",
     "rating": "1.07",
     "k_d": "51-46 (+5)",
@@ -290,6 +324,8 @@
   },
   {
     "country": "UK",
+    "country_flag": "flags/UK.png", 
+    "team_logo": "logos/eu/Fnatic.png",
     "player": "WIZARDUK",
     "rating": "1.07",
     "k_d": "53-49 (+4)",
@@ -307,6 +343,8 @@
   },
   {
     "country": "Brazil",
+    "country_flag": "flags/Brazil.png",
+    "team_logo": "logos/eu/G2Esports.png",
     "player": "Loira",
     "rating": "1.06",
     "k_d": "62-53 (+9)",
@@ -324,6 +362,8 @@
   },
   {
     "country": "France",
+    "country_flag": "flags/France.png", 
+    "team_logo": "logos/eu/G2Esports.png",
     "player": "BlaZ",
     "rating": "1.05",
     "k_d": "55-48 (+7)",
@@ -341,6 +381,8 @@
   },
   {
     "country": "Russia",
+    "country_flag":"flags/Russia.png",
+    "team_logo": "logos/eu/Virtus.pro.png",
     "player": "ShepparD",
     "rating": "1.01",
     "k_d": "37-44 (-7)",
@@ -358,6 +400,8 @@
   },
   {
     "country": "Italy",
+    "country_flag": "flags/Italy.png",
+    "team_logo": "logos/eu/MACKOEsports.png",
     "player": "DORA",
     "rating": "1.01",
     "k_d": "50-52 (-2)",
@@ -375,6 +419,8 @@
   },
   {
     "country": "France",
+    "country_flag": "flags/France.png",
+    "team_logo": "logos/eu/TeamBDS.png",
     "player": "Lasmooo",
     "rating": "1.01",
     "k_d": "54-54 (+0)",
@@ -392,6 +438,8 @@
   },
   {
     "country": "Brazil",
+    "country_flag": "flags/Brazil.png",
+    "team_logo": "logos/eu/WYLDE.png",
     "player": "MATZ",
     "rating": "1.01",
     "k_d": "47-46 (+1)",
@@ -409,6 +457,8 @@
   },
   {
     "country": "Italy",
+    "country_flag": "flags/Italy.png",
+    "team_logo": "logos/eu/MACKOEsports.png",
     "player": "T3BB",
     "rating": "1.00",
     "k_d": "57-54 (+3)",
@@ -426,6 +476,8 @@
   },
   {
     "country": "France",
+    "country_flag": "flags/France.png",
+    "team_logo": "logos/eu/Gen.GEsports.png",
     "player": "Nayqo",
     "rating": "1.00",
     "k_d": "49-51 (-2)",
@@ -443,6 +495,8 @@
   },
   {
     "country": "UK",
+    "country_flag": "flags/UK.png",
+    "team_logo": "logos/eu/WolvesEsports.png",
     "player": "Azzr",
     "rating": "0.99",
     "k_d": "50-48 (+2)",
@@ -460,6 +514,8 @@
   },
   {
     "country": "Russia",
+    "country_flag": "flags/Russia.png",
+    "team_logo": "logos/eu/Virtus.pro.png",
     "player": "dan",
     "rating": "0.98",
     "k_d": "47-46 (+1)",
@@ -477,6 +533,8 @@
   },
   {
     "country": "France",
+    "country_flag": "flags/France.png",
+    "team_logo": "logos/eu/Gen.GEsports.png",
     "player": "AzoXx",
     "rating": "0.97",
     "k_d": "42-44 (-2)",
@@ -494,6 +552,8 @@
   },
   {
     "country": "Turkey",
+    "country_flag": "flags/Turkey.png",
+    "team_logo": "logos/eu/TeamSecret.png",
     "player": "Solotov",
     "rating": "0.94",
     "k_d": "42-41 (+1)",
@@ -511,6 +571,8 @@
   },
   {
     "country": "UK",
+    "country_flag": "flags/UK.png",
+    "team_logo": "logos/eu/WolvesEsports.png",
     "player": "TYRANT",
     "rating": "0.94",
     "k_d": "45-46 (-1)",
@@ -528,6 +590,8 @@
   },
   {
     "country": "Italy",
+    "country_flag": "flags/Italy.png",
+    "team_logo": "logos/eu/TeamBDS.png",
     "player": "Robby",
     "rating": "0.93",
     "k_d": "53-53 (+0)",
@@ -545,6 +609,8 @@
   },
   {
     "country": "Italy",
+    "country_flag": "flags/Italy.png",
+    "team_logo": "logos/eu/MACKOEsports.png",
     "player": "LOLLO",
     "rating": "0.92",
     "k_d": "50-55 (-5)",
@@ -562,6 +628,8 @@
   },
   {
     "country": "France",
+    "country_flag": "flags/France.png",
+    "team_logo": "logos/eu/Gen.GEsports.png",
     "player": "SkyZs",
     "rating": "0.92",
     "k_d": "47-46 (+1)",
@@ -579,6 +647,8 @@
   },
   {
     "country": "Australia",
+    "country_flag": "flags/Australia.png",
+    "team_logo": "logos/eu/TeamBDS.png",
     "player": "Virtue",
     "rating": "0.90",
     "k_d": "41-53 (-12)",
@@ -596,6 +666,8 @@
   },
   {
     "country": "France",
+    "country_flag": "flags/France.png",
+    "team_logo": "logos/eu/TeamBDS.png",
     "player": "P4",
     "rating": "0.89",
     "k_d": "36-48 (-12)",
@@ -613,6 +685,8 @@
   },
   {
     "country": "Spain",
+    "country_flag": "flags/Spain.png",
+    "team_logo": "logos/eu/WYLDE.png",
     "player": "SNEAK",
     "rating": "0.89",
     "k_d": "45-53 (-8)",
@@ -630,6 +704,8 @@
   },
   {
     "country": "Italy",
+    "country_flag": "flags/Italy.png",
+    "team_logo": "logos/eu/MACKOEsports.png",
     "player": "AQUI",
     "rating": "0.88",
     "k_d": "47-57 (-10)",
@@ -647,6 +723,8 @@
   },
   {
     "country": "Poland",
+    "country_flag": "flags/Poland.png",
+    "team_logo": "logos/eu/WolvesEsports.png",
     "player": "nudl",
     "rating": "0.84",
     "k_d": "35-45 (-10)",
@@ -664,6 +742,8 @@
   },
   {
     "country": "Switzerland",
+    "country_flag": "flags/Switzerland.png",
+    "team_logo": "logos/eu/Gen.GEsports.png",
     "player": "DEADSHT",
     "rating": "0.84",
     "k_d": "35-48 (-13)",
@@ -681,6 +761,8 @@
   },
   {
     "country": "Brazil",
+    "country_flag": "flags/Brazil.png",
+    "team_logo": "logos/eu/G2Esports.png",
     "player": "Alem4o",
     "rating": "0.83",
     "k_d": "39-54 (-15)",
@@ -698,6 +780,8 @@
   },
   {
     "country": "Russia",
+    "country_flag": "flags/Russia.png",
+    "team_logo": "logos/eu/Virtus.pro.png",
     "player": "JoyStiCK",
     "rating": "0.82",
     "k_d": "39-50 (-11)",
@@ -715,6 +799,8 @@
   },
   {
     "country": "Netherlands",
+    "country_flag": "flags/Netherlands.png",
+    "team_logo": "logos/eu/Fnatic.png",
     "player": "Deapek",
     "rating": "0.82",
     "k_d": "35-49 (-14)",
@@ -732,6 +818,8 @@
   },
   {
     "country": "France",
+    "country_flag": "flags/France.png",
+    "team_logo": "logos/eu/Gen.GEsports.png",
     "player": "Asa",
     "rating": "0.80",
     "k_d": "33-48 (-15)",
@@ -749,6 +837,8 @@
   },
   {
     "country": "UK",
+    "country_flag": "flags/UK.png",
+    "team_logo": "logos/eu/WolvesEsports.png",
     "player": "CREXED",
     "rating": "0.79",
     "k_d": "40-55 (-15)",
@@ -766,6 +856,8 @@
   },
   {
     "country": "UK",
+    "country_flag": "flags/UK.png",
+    "team_logo": "logos/eu/WolvesEsports.png",
     "player": "Leadr",
     "rating": "0.76",
     "k_d": "27-45 (-18)",
@@ -783,6 +875,8 @@
   },
   {
     "country": "UK",
+    "country_flag": "flags/UK.png",
+    "team_logo": "logos/eu/WYLDE.png",  
     "player": "BMZY",
     "rating": "0.71",
     "k_d": "33-53 (-20)",
@@ -800,6 +894,8 @@
   },
   {
     "country": "Poland",
+    "country_flag": "flags/Poland.png",
+    "team_logo": "logos/eu/Fnatic.png",
     "player": "Gruby",
     "rating": "0.68",
     "k_d": "29-51 (-22)",
@@ -817,6 +913,8 @@
   },
   {
     "country": "Italy",
+    "country_flag": "flags/Italy.png",
+    "team_logo": "logos/eu/MACKOEsports.png",
     "player": "GHOSTRIDDIK",
     "rating": "0.67",
     "k_d": "27-56 (-29)",
@@ -834,6 +932,8 @@
   },
   {
     "country": "Ireland",
+    "country_flag": "flags/Ireland.png",
+    "team_logo": "logos/eu/WYLDE.png",
     "player": "EVAN",
     "rating": "0.62",
     "k_d": "21-56 (-35)",

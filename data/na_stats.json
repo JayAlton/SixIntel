@@ -1,6 +1,8 @@
 [
   {
     "country": "UK",
+    "country_flag": "flags/UK.png",
+    "team_logo": "logos/na/DarkZero.png",
     "player": "CTZN",
     "rating": "1.36",
     "k_d": "58-31 (+27)",
@@ -14,10 +16,14 @@
     "disables": 0,
     "hs_percent": 51,
     "attacker": "Deimos",
-    "defender": "Mute"
+    "defender": "Mute",
+    "kills": 58,
+    "deaths": 31
   },
   {
     "country": "USA",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/na/Shopify Rebellion.png",
     "player": "Ambi",
     "rating": "1.36",
     "k_d": "71-41 (+30)",
@@ -31,10 +37,14 @@
     "disables": 0,
     "hs_percent": 57,
     "attacker": "Ram",
-    "defender": "Castle"
+    "defender": "Castle",
+    "kills": 71,
+    "deaths": 41
   },
   {
     "country": "USA",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/na/DarkZero.png",
     "player": "Panbazou",
     "rating": "1.35",
     "k_d": "61-33 (+28)",
@@ -48,10 +58,14 @@
     "disables": 1,
     "hs_percent": 66,
     "attacker": "Ram",
-    "defender": "Castle"
+    "defender": "Castle",
+    "kills": 61,
+    "deaths": 33
   },
   {
     "country": "USA",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/na/Spacestation Gaming.png",
     "player": "Ashn",
     "rating": "1.33",
     "k_d": "63-41 (+22)",
@@ -65,10 +79,14 @@
     "disables": 0,
     "hs_percent": 48,
     "attacker": "IQ",
-    "defender": "Warden"
+    "defender": "Warden",
+    "kills": 63,
+    "deaths": 41
   },
   {
     "country": "USA",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/na/Shopify Rebellion.png",
     "player": "Rexen",
     "rating": "1.29",
     "k_d": "67-42 (+25)",
@@ -82,10 +100,14 @@
     "disables": 0,
     "hs_percent": 38,
     "attacker": "Ace",
-    "defender": "Frost"
+    "defender": "Frost",
+    "kills": 67,
+    "deaths": 42
   },
   {
     "country": "USA",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/na/M80.png",
     "player": "dfuzr",
     "rating": "1.29",
     "k_d": "59-37 (+22)",
@@ -99,10 +121,14 @@
     "disables": 0,
     "hs_percent": 53,
     "attacker": "Gridlock",
-    "defender": "Lesion"
+    "defender": "Lesion",
+    "kills": 59,
+    "deaths": 37
   },
   {
     "country": "USA",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/na/Wildcard.png",
     "player": "Kanzen",
     "rating": "1.24",
     "k_d": "70-50 (+20)",
@@ -116,11 +142,15 @@
     "disables": 0,
     "hs_percent": 61,
     "attacker": "Ash",
-    "defender": "Echo"
+    "defender": "Echo",
+    "kills": 70,
+    "deaths": 50
   },
   {
     "country": "USA",
-    "player": "Anjr",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/na/DarkZero.png",
+    "player": "njr",
     "rating": "1.18",
     "k_d": "51-36 (+15)",
     "entry": "3-5 (-2)",
@@ -133,10 +163,14 @@
     "disables": 0,
     "hs_percent": 49,
     "attacker": "Hibana",
-    "defender": "Tachanka"
+    "defender": "Tachanka",
+    "kills": 51,
+    "deaths": 36
   },
   {
     "country": "USA",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/na/Shopify Rebellion.png",
     "player": "Surf",
     "rating": "1.17",
     "k_d": "54-38 (+16)",
@@ -150,10 +184,14 @@
     "disables": 0,
     "hs_percent": 45,
     "attacker": "Dokkaebi",
-    "defender": "Smoke"
+    "defender": "Smoke",
+    "kills": 54,
+    "deaths": 38
   },
   {
     "country": "UK",
+    "country_flag": "flags/UK.png",
+    "team_logo": "logos/na/DarkZero.png",
     "player": "Nafe",
     "rating": "1.15",
     "k_d": "49-38 (+11)",
@@ -167,10 +205,14 @@
     "disables": 0,
     "hs_percent": 53,
     "attacker": "Ace",
-    "defender": "Mute"
+    "defender": "Mute",
+    "kills": 49,
+    "deaths": 38
   },
   {
     "country": "USA",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/na/Spacestation Gaming.png",
     "player": "Fultz",
     "rating": "1.14",
     "k_d": "45-41 (+4)",
@@ -184,10 +226,14 @@
     "disables": 1,
     "hs_percent": 71,
     "attacker": "Ace",
-    "defender": "Smoke"
+    "defender": "Smoke",
+    "kills": 45,
+    "deaths": 41
   },
   {
     "country": "Sweden",
+    "country_flag": "flags/Sweden.png",
+    "team_logo": "logos/na/Shopify Rebellion.png",
     "player": "Spoit",
     "rating": "1.13",
     "k_d": "59-46 (+13)",
@@ -201,10 +247,14 @@
     "disables": 0,
     "hs_percent": 60,
     "attacker": "Gridlock",
-    "defender": "Azami"
+    "defender": "Azami",
+    "kills": 59,
+    "deaths": 46
   },
   {
     "country": "USA",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/na/Spacestation Gaming.png",
     "player": "J90",
     "rating": "1.13",
     "k_d": "52-44 (+8)",
@@ -218,10 +268,14 @@
     "disables": 0,
     "hs_percent": 52,
     "attacker": "Capitao",
-    "defender": "Smoke"
+    "defender": "Smoke",
+    "kills": 52,
+    "deaths": 44
   },
   {
     "country": "USA",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/na/M80.png",
     "player": "Hotancold",
     "rating": "1.12",
     "k_d": "44-38 (+6)",
@@ -235,10 +289,14 @@
     "disables": 0,
     "hs_percent": 53,
     "attacker": "Blitz",
-    "defender": "Valkyrie"
+    "defender": "Valkyrie",
+    "kills": 44,
+    "deaths": 38
   },
   {
     "country": "USA",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/na/Oxygen Esports.png",
     "player": "Gryxr",
     "rating": "1.12",
     "k_d": "51-41 (+10)",
@@ -252,11 +310,15 @@
     "disables": 0,
     "hs_percent": 48,
     "attacker": "Grim",
-    "defender": "Fenrir"
+    "defender": "Fenrir",
+    "kills": 51,
+    "deaths": 41
   },
   {
-    "country": "FATAL",
-    "player": "Mexico",
+    "country": "Mexico",
+    "country_flag": "flags/Mexico.png",
+    "team_logo": "logos/na/Team Cruelty.png",
+    "player": "FATAL",
     "rating": "1.06",
     "k_d": "56-48 (+8)",
     "entry": "8-10 (-2)",
@@ -269,10 +331,14 @@
     "disables": 0,
     "hs_percent": 57,
     "attacker": "Ace",
-    "defender": "Smoke"
+    "defender": "Smoke",
+    "kills": 56,
+    "deaths": 48
   },
   {
     "country": "Canada",
+    "country_flag": "flags/Canada.png",
+    "team_logo": "logos/na/DarkZero.png",
     "player": "SpiriTz",
     "rating": "1.05",
     "k_d": "41-38 (+3)",
@@ -286,10 +352,14 @@
     "disables": 0,
     "hs_percent": 45,
     "attacker": "Blackbeard",
-    "defender": "Jager"
+    "defender": "Jager",
+    "kills": 41,
+    "deaths": 38
   },
   {
     "country": "USA",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/na/Spacestation Gaming.png",
     "player": "Nuers",
     "rating": "1.03",
     "k_d": "40-38 (+2)",
@@ -303,10 +373,14 @@
     "disables": 0,
     "hs_percent": 59,
     "attacker": "Buck",
-    "defender": "Lesion"
+    "defender": "Lesion",
+    "kills": 40,
+    "deaths": 38
   },
   {
     "country": "USA",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/na/Cloud9.png",
     "player": "Kobelax",
     "rating": "1.03",
     "k_d": "56-53 (+3)",
@@ -320,10 +394,14 @@
     "disables": 0,
     "hs_percent": 75,
     "attacker": "Dokkaebi",
-    "defender": "Lesion"
+    "defender": "Lesion",
+    "kills": 56,
+    "deaths": 53
   },
   {
     "country": "USA",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/na/Wildcard.png",
     "player": "Bae",
     "rating": "1.00",
     "k_d": "54-52 (+2)",
@@ -337,10 +415,14 @@
     "disables": 0,
     "hs_percent": 64,
     "attacker": "Gridlock",
-    "defender": "Warden"
+    "defender": "Warden",
+    "kills": 54,
+    "deaths": 52
   },
   {
     "country": "Mexico",
+    "country_flag": "flags/Mexico.png",
+    "team_logo": "logos/na/Cloud9.png",
     "player": "Silent",
     "rating": "0.98",
     "k_d": "54-50 (+4)",
@@ -354,10 +436,14 @@
     "disables": 0,
     "hs_percent": 56,
     "attacker": "Deimos",
-    "defender": "Frost"
+    "defender": "Frost",
+    "kills": 54,
+    "deaths": 50
   },
   {
     "country": "USA",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/na/LFO.png",
     "player": "FENZ",
     "rating": "0.98",
     "k_d": "48-49 (-1)",
@@ -371,10 +457,14 @@
     "disables": 0,
     "hs_percent": 32,
     "attacker": "Ram",
-    "defender": "Mute"
+    "defender": "Mute",
+    "kills": 48,
+    "deaths": 49
   },
   {
     "country": "Puerto Rico",
+    "country_flag": "flags/Puerto Rico.png",
+    "team_logo": "logos/na/LFO.png",
     "player": "Eddy",
     "rating": "0.97",
     "k_d": "45-49 (-4)",
@@ -388,10 +478,14 @@
     "disables": 0,
     "hs_percent": 44,
     "attacker": "Grim",
-    "defender": "Smoke"
+    "defender": "Smoke",
+    "kills": 45,
+    "deaths": 49
   },
   {
     "country": "USA",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/na/Oxygen Esports.png",
     "player": "Yoggah",
     "rating": "0.96",
     "k_d": "44-48 (-4)",
@@ -405,10 +499,14 @@
     "disables": 0,
     "hs_percent": 63,
     "attacker": "Blackbeard",
-    "defender": "Smoke"
+    "defender": "Smoke",
+    "kills": 44,
+    "deaths": 48
   },
   {
     "country": "Brazil",
+    "country_flag": "flags/Brazil.png",
+    "team_logo": "logos/na/M80.png",
     "player": "Kyno",
     "rating": "0.96",
     "k_d": "32-38 (-6)",
@@ -422,10 +520,14 @@
     "disables": 2,
     "hs_percent": 17,
     "attacker": "Ying",
-    "defender": "Smoke"
+    "defender": "Smoke",
+    "kills": 32,
+    "deaths": 38
   },
   {
     "country": "USA",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/na/M80.png",
     "player": "Gunnar",
     "rating": "0.94",
     "k_d": "38-42 (-4)",
@@ -439,10 +541,14 @@
     "disables": 0,
     "hs_percent": 49,
     "attacker": "Ace",
-    "defender": "Mute"
+    "defender": "Mute",
+    "kills": 38,
+    "deaths": 42
   },
   {
     "country": "USA",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/na/LFO.png",
     "player": "Kixhro",
     "rating": "0.94",
     "k_d": "46-47 (-1)",
@@ -456,10 +562,14 @@
     "disables": 1,
     "hs_percent": 64,
     "attacker": "Ace",
-    "defender": "Valkyrie"
+    "defender": "Valkyrie",
+    "kills": 46,
+    "deaths": 47
   },
   {
     "country": "USA",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/na/ENVY.png",
     "player": "Rival",
     "rating": "0.94",
     "k_d": "44-52 (-8)",
@@ -473,10 +583,14 @@
     "disables": 0,
     "hs_percent": 54,
     "attacker": "Buck",
-    "defender": "Aruni"
+    "defender": "Aruni",
+    "kills": 44,
+    "deaths": 52
   },
   {
     "country": "USA",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/na/M80.png",
     "player": "Gaveni",
     "rating": "0.93",
     "k_d": "37-43 (-6)",
@@ -490,10 +604,14 @@
     "disables": 0,
     "hs_percent": 73,
     "attacker": "Nomad",
-    "defender": "Goyo"
+    "defender": "Goyo",
+    "kills": 37,
+    "deaths": 43
   },
   {
     "country": "USA",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/na/LFO.png",
     "player": "epic",
     "rating": "0.93",
     "k_d": "48-51 (-3)",
@@ -507,10 +625,14 @@
     "disables": 0,
     "hs_percent": 49,
     "attacker": "Dokkaebi",
-    "defender": "Warden"
+    "defender": "Warden",
+    "kills": 48,
+    "deaths": 51
   },
   {
     "country": "USA",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/na/Oxygen Esports.png",
     "player": "Atom",
     "rating": "0.92",
     "k_d": "45-49 (-4)",
@@ -524,10 +646,14 @@
     "disables": 1,
     "hs_percent": 44,
     "attacker": "Grim",
-    "defender": "Lesion"
+    "defender": "Lesion",
+    "kills": 45,
+    "deaths": 49
   },
   {
     "country": "USA",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/na/ENVY.png",
     "player": "Twiizt",
     "rating": "0.90",
     "k_d": "46-54 (-8)",
@@ -541,10 +667,14 @@
     "disables": 0,
     "hs_percent": 44,
     "attacker": "Ash",
-    "defender": "Mute"
+    "defender": "Mute",
+    "kills": 46,
+    "deaths": 54
   },
   {
     "country": "USA",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/na/ENVY.png",
     "player": "Snake",
     "rating": "0.90",
     "k_d": "46-54 (-8)",
@@ -558,10 +688,14 @@
     "disables": 1,
     "hs_percent": 50,
     "attacker": "Ash",
-    "defender": "Wamai"
+    "defender": "Wamai",
+    "kills": 46,
+    "deaths": 54
   },
   {
     "country": "Mexico",
+    "country_flag": "flags/Mexico.png",
+    "team_logo": "logos/na/Team Cruelty.png",
     "player": "IVAN",
     "rating": "0.90",
     "k_d": "43-50 (-7)",
@@ -575,10 +709,14 @@
     "disables": 0,
     "hs_percent": 52,
     "attacker": "Buck",
-    "defender": "Azami"
+    "defender": "Azami",
+    "kills": 43,
+    "deaths": 50
   },
   {
     "country": "USA",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/na/Wildcard.png",
     "player": "Spiker",
     "rating": "0.90",
     "k_d": "38-48 (-10)",
@@ -592,10 +730,14 @@
     "disables": 0,
     "hs_percent": 66,
     "attacker": "Nomad",
-    "defender": "Smoke"
+    "defender": "Smoke",
+    "kills": 38,
+    "deaths": 48
   },
   {
     "country": "Mexico",
+    "country_flag": "flags/Mexico.png",
+    "team_logo": "logos/na/Team Cruelty.png",
     "player": "PYROXZ",
     "rating": "0.90",
     "k_d": "42-50 (-8)",
@@ -609,10 +751,14 @@
     "disables": 0,
     "hs_percent": 60,
     "attacker": "Buck",
-    "defender": "Melusi"
+    "defender": "Melusi",
+    "kills": 42,
+    "deaths": 50
   },
   {
     "country": "USA",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/na/Cloud9.png",
     "player": "Gity",
     "rating": "0.89",
     "k_d": "44-50 (-6)",
@@ -626,10 +772,14 @@
     "disables": 1,
     "hs_percent": 66,
     "attacker": "Twitch",
-    "defender": "Melusi"
+    "defender": "Melusi",
+    "kills": 44,
+    "deaths": 50
   },
   {
     "country": "USA",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/na/Cloud9.png",
     "player": "Packer",
     "rating": "0.89",
     "k_d": "45-55 (-10)",
@@ -643,6 +793,260 @@
     "disables": 0,
     "hs_percent": 54,
     "attacker": "Blackbeard",
-    "defender": "Mute"
+    "defender": "Mute",
+    "kills": 45,
+    "deaths": 55
+  },
+  {
+    "country": "Denmark",
+    "country_flag": "flags/Denmark.png",
+    "team_logo": "logos/na/Spacestation Gaming.png",
+    "player": "Benjamaster",
+    "rating": "0.86",
+    "k_d": "35-45 (-10)",
+    "entry": "2-7 (-5)",
+    "maps": 6,
+    "kost": "65%",
+    "kpr": "0.56",
+    "srv": "29%",
+    "clutches": 0,
+    "plants": 0,
+    "disables": 0,
+    "hs_percent": 43,
+    "attacker": "Gridlock",
+    "defender": "Sentry",
+    "kills": 35,
+    "deaths": 45
+  },
+  {
+    "country": "Brazil",
+    "country_flag": "flags/Brazil.png",
+    "team_logo": "logos/na/Wildcard.png",
+    "player": "Dash",
+    "rating": "0.86",
+    "k_d": "45-58 (-13)",
+    "entry": "5-13 (-8)",
+    "maps": 6,
+    "kost": "58%",
+    "kpr": "0.63",
+    "srv": "19%",
+    "clutches": 1,
+    "plants": 2,
+    "disables": 0,
+    "hs_percent": 46,
+    "attacker": "Blackbeard",
+    "defender": "Smoke",
+    "kills": 45,
+    "deaths": 58
+  },
+  {
+    "country": "Mexico",
+    "country_flag": "flags/Mexico.png",
+    "team_logo": "logos/na/Team Cruelty.png",
+    "player": "RNOTUMBO",
+    "rating": "0.86",
+    "k_d": "31-49 (-18)",
+    "entry": "2-7 (-5)",
+    "maps": 6,
+    "kost": "64%",
+    "kpr": "0.47",
+    "srv": "26%",
+    "clutches": 0,
+    "plants": 9,
+    "disables": 1,
+    "hs_percent": 37,
+    "attacker": "Blackbeard",
+    "defender": "Echo",
+    "kills": 31,
+    "deaths": 49
+  },
+  {
+    "country": "France",
+    "country_flag": "flags/France.png",
+    "team_logo": "logos/na/Wildcard.png",
+    "player": "BBYSHARKK",
+    "rating": "0.84",
+    "k_d": "46-54 (-8)",
+    "entry": "7-6 (+1)",
+    "maps": 6,
+    "kost": "54%",
+    "kpr": "0.64",
+    "srv": "25%",
+    "clutches": 0,
+    "plants": 0,
+    "disables": 0,
+    "hs_percent": 44,
+    "attacker": "Dokkaebi",
+    "defender": "Mute",
+    "kills": 46,
+    "deaths": 54
+  },
+  {
+    "country": "Canada",
+    "country_flag": "flags/Canada.png",
+    "team_logo": "logos/na/Shopify Rebellion.png",
+    "player": "Canadian",
+    "rating": "0.83",
+    "k_d": "19-36 (-17)",
+    "entry": "0-3 (-3)",
+    "maps": 6,
+    "kost": "66%",
+    "kpr": "0.28",
+    "srv": "46%",
+    "clutches": 1,
+    "plants": 6,
+    "disables": 0,
+    "hs_percent": 44,
+    "attacker": "Montagne",
+    "defender": "Echo",
+    "kills": 19,
+    "deaths": 36
+  },
+  {
+    "country": "USA",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/na/Oxygen Esports.png",
+    "player": "Forrest",
+    "rating": "0.83",
+    "k_d": "35-47 (-12)",
+    "entry": "6-9 (-3)",
+    "maps": 6,
+    "kost": "55%",
+    "kpr": "0.55",
+    "srv": "27%",
+    "clutches": 1,
+    "plants": 3,
+    "disables": 0,
+    "hs_percent": 41,
+    "attacker": "Montagne",
+    "defender": "Mute",
+    "kills": 35,
+    "deaths": 47
+  },
+  {
+    "country": "Brazil",
+    "country_flag": "flags/Brazil.png",
+    "team_logo": "logos/na/Oxygen Esports.png",
+    "player": "GMZ",
+    "rating": "0.83",
+    "k_d": "35-47 (-12)",
+    "entry": "5-7 (-2)",
+    "maps": 6,
+    "kost": "58%",
+    "kpr": "0.61",
+    "srv": "22%",
+    "clutches": 0,
+    "plants": 0,
+    "disables": 0,
+    "hs_percent": 51,
+    "attacker": "Capitao",
+    "defender": "Goyo",
+    "kills": 35,
+    "deaths": 47
+  },
+  {
+    "country": "Mexico",
+    "country_flag": "flags/Mexico.png",
+    "team_logo": "logos/na/Team Cruelty.png",
+    "player": "SKMZY",
+    "rating": "0.81",
+    "k_d": "38-53 (-15)",
+    "entry": "3-9 (-6)",
+    "maps": 6,
+    "kost": "61%",
+    "kpr": "0.58",
+    "srv": "20%",
+    "clutches": 0,
+    "plants": 0,
+    "disables": 0,
+    "hs_percent": 71,
+    "attacker": "Dokkaebi",
+    "defender": "Clash",
+    "kills": 38,
+    "deaths": 53
+  },
+  {
+    "country": "USA",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/na/ENVY.png",
+    "player": "JJBlazt",
+    "rating": "0.77",
+    "k_d": "31-51 (-20)",
+    "entry": "6-11 (-5)",
+    "maps": 6,
+    "kost": "52%",
+    "kpr": "0.48",
+    "srv": "22%",
+    "clutches": 1,
+    "plants": 4,
+    "disables": 1,
+    "hs_percent": 43,
+    "attacker": "Hibana",
+    "defender": "Smoke",
+    "kills": 31,
+    "deaths": 51
+  },
+  {
+    "country": "USA",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/na/ENVY.png",
+    "player": "Emilio",
+    "rating": "0.75",
+    "k_d": "33-54 (-21)",
+    "entry": "0-1 (-1)",
+    "maps": 6,
+    "kost": "55%",
+    "kpr": "0.50",
+    "srv": "18%",
+    "clutches": 1,
+    "plants": 0,
+    "disables": 0,
+    "hs_percent": 66,
+    "attacker": "Nomad",
+    "defender": "Melusi",
+    "kills": 33,
+    "deaths": 54
+  },
+  {
+    "country": "USA",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/na/LFO.png",
+    "player": "Beeno",
+    "rating": "0.72",
+    "k_d": "24-48 (-24)",
+    "entry": "2-4 (-2)",
+    "maps": 6,
+    "kost": "58%",
+    "kpr": "0.36",
+    "srv": "27%",
+    "clutches": 0,
+    "plants": 5,
+    "disables": 1,
+    "hs_percent": 52,
+    "attacker": "Montagne",
+    "defender": "Mute",
+    "kills": 24,
+    "deaths": 48
+  },
+  {
+    "country": "USA",
+    "country_flag": "flags/USA.png",
+    "team_logo": "logos/na/Cloud9.png",
+    "player": "Dream",
+    "rating": "0.71",
+    "k_d": "30-51 (-21)",
+    "entry": "2-4 (-2)",
+    "maps": 6,
+    "kost": "51%",
+    "kpr": "0.43",
+    "srv": "27%",
+    "clutches": 1,
+    "plants": 1,
+    "disables": 0,
+    "hs_percent": 52,
+    "attacker": "Ace",
+    "defender": "Smoke",
+    "kills": 30,
+    "deaths": 51
   }
 ]
