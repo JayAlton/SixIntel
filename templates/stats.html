@@ -5,54 +5,112 @@
 {% block content %}
 <h1 class="text-2xl font-bold mb-6 text-center">{{ region }} Player Stats</h1>
 
-<div class="w-full overflow-x-auto px-4">
+<!-- Stats Table with Alpine.js -->
+<div x-data="statsTable()" class="w-full overflow-x-auto px-4">
   <table class="w-full text-sm text-white bg-black border border-gray-700">
     <thead class="bg-gray-800 text-xs uppercase text-gray-300">
       <tr>
-        <th class="px-3 py-2 text-left">Country</th>
-        <th class="px-3 py-2 text-left">Team</th>
-        <th class="px-3 py-2 text-left">Player</th>
-        <th class="px-3 py-2">K/D</th>
-        <th class="px-3 py-2">K-D (+/-)</th>
-        <th class="px-3 py-2">Entry</th>
-        <th class="px-3 py-2">Maps</th>
-        <th class="px-3 py-2">KOST</th>
-        <th class="px-3 py-2">KPR</th>
-        <th class="px-3 py-2">SRV</th>
-        <th class="px-3 py-2">Clutches</th>
-        <th class="px-3 py-2">Plants</th>
-        <th class="px-3 py-2">Disables</th>
-        <th class="px-3 py-2">HS%</th>
+        <th class="px-3 py-2">Country</th>
+        <th class="px-3 py-2">Team</th>
+        <th class="px-3 py-2">Player</th>
+
+        <template x-for="column in sortableColumns" :key="column.key">
+          <th 
+            class="px-3 py-2 cursor-pointer select-none"
+            @click="sortBy(column.key)"
+          >
+            <div class="flex items-center gap-1 justify-center">
+              <span x-text="column.label"></span>
+              <template x-if="sortKey === column.key">
+                <span x-text="sortAsc ? '▲' : '▼'"></span>
+              </template>
+            </div>
+          </th>
+        </template>
+
         <th class="px-3 py-2">Attacker</th>
         <th class="px-3 py-2">Defender</th>
       </tr>
     </thead>
+
     <tbody class="divide-y divide-gray-700">
-      {% for player in stats %}
-      <tr class="hover:bg-gray-900">
-        <td class="px-3 py-2">
-          <img src="{{ url_for('static', filename=player.country_flag) }}" alt="{{ player.country }}" class="h-5 w-7 rounded-sm">
-        </td>
-        <td class="px-3 py-2">
-          <img src="{{ url_for('static', filename=player.team_logo) }}" alt="Team Logo" class="h-6 w-6 rounded-sm">
-        </td>
-        <td class="px-3 py-2 font-medium text-blue-400">{{ player.player }}</td>
-        <td class="px-3 py-2 text-center">{{ player.rating }}</td>
-        <td class="px-3 py-2 text-center">{{ player.k_d }}</td>
-        <td class="px-3 py-2 text-center">{{ player.entry }}</td>
-        <td class="px-3 py-2 text-center">{{ player.maps }}</td>
-        <td class="px-3 py-2 text-center">{{ player.kost }}</td>
-        <td class="px-3 py-2 text-center">{{ player.kpr }}</td>
-        <td class="px-3 py-2 text-center">{{ player.srv }}</td>
-        <td class="px-3 py-2 text-center">{{ player.clutches }}</td>
-        <td class="px-3 py-2 text-center">{{ player.plants }}</td>
-        <td class="px-3 py-2 text-center">{{ player.disables }}</td>
-        <td class="px-3 py-2 text-center">{{ player.hs_percent }}%</td>
-        <td class="px-3 py-2 text-center">{{ player.attacker }}</td>
-        <td class="px-3 py-2 text-center">{{ player.defender }}</td>
-      </tr>
-      {% endfor %}
+      <template x-for="(player, index) in sortedData()" :key="player.player">
+        <tr 
+          :class="index % 2 === 0 ? 'bg-black' : 'bg-gray-900'" 
+          class="transition-colors duration-200 hover:bg-gray-800"
+        >
+          <td class="px-3 py-2">
+            <img :src="'/static/' + player.country_flag" :alt="player.country" class="h-5 w-7 rounded-sm">
+          </td>
+          <td class="px-3 py-2">
+            <img :src="'/static/' + player.team_logo" alt="Team Logo" class="h-6 w-6 rounded-sm">
+          </td>
+          <td class="px-3 py-2 font-medium text-blue-400" x-text="player.player"></td>
+          <td class="px-3 py-2 text-center" x-text="player.rating"></td>
+          <td class="px-3 py-2 text-center" x-text="player.k_d"></td>
+          <td class="px-3 py-2 text-center" x-text="player.entry"></td>
+          <td class="px-3 py-2 text-center" x-text="player.maps"></td>
+          <td class="px-3 py-2 text-center" x-text="player.kost"></td>
+          <td class="px-3 py-2 text-center" x-text="player.kpr"></td>
+          <td class="px-3 py-2 text-center" x-text="player.srv"></td>
+          <td class="px-3 py-2 text-center" x-text="player.clutches"></td>
+          <td class="px-3 py-2 text-center" x-text="player.plants"></td>
+          <td class="px-3 py-2 text-center" x-text="player.disables"></td>
+          <td class="px-3 py-2 text-center" x-text="player.hs_percent + '%'"></td>
+          <td class="px-3 py-2 text-center" x-text="player.attacker"></td>
+          <td class="px-3 py-2 text-center" x-text="player.defender"></td>
+        </tr>
+      </template>
     </tbody>
   </table>
 </div>
+
+<!-- Alpine.js Sort Script -->
+<script>
+function statsTable() {
+  return {
+    rawData: JSON.parse('{{ stats | tojson | safe }}'),
+    sortKey: 'rating',
+    sortAsc: false,
+    sortableColumns: [
+      { key: 'rating', label: 'Rating' },
+      { key: 'k_d', label: 'K-D' },
+      { key: 'entry', label: 'Entry' },
+      { key: 'maps', label: 'Maps' },
+      { key: 'kost', label: 'KOST' },
+      { key: 'kpr', label: 'KPR' },
+      { key: 'srv', label: 'SRV' },
+      { key: 'clutches', label: 'Clutches' },
+      { key: 'plants', label: 'Plants' },
+      { key: 'disables', label: 'Disables' },
+      { key: 'hs_percent', label: 'HS%' },
+    ],
+
+    sortBy(key) {
+      if (this.sortKey === key) {
+        this.sortAsc = !this.sortAsc;
+      } else {
+        this.sortKey = key;
+        this.sortAsc = false;
+      }
+    },
+
+    sortedData() {
+      return this.rawData.slice().sort((a, b) => {
+        const valA = this.parseValue(a[this.sortKey]);
+        const valB = this.parseValue(b[this.sortKey]);
+        return this.sortAsc ? valA - valB : valB - valA;
+      });
+    },
+
+    parseValue(val) {
+      if (typeof val === 'string') {
+        const match = val.match(/(-?\d+\.?\d*)/);
+        return match ? parseFloat(match[1]) : 0;
+      }
+      return typeof val === 'number' ? val : 0;
+    }
+  }
+}
+</script>
 {% endblock %}
