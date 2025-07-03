@@ -37,7 +37,15 @@
 - [x] Use TailwindCSS for styling
 - [x] Add league logos / team icons
 - [x] Add country flags for players
-- [ ] Make tables sortable or filterable (JS or Alpine.js)
+- [x] Make tables sortable or filterable (JS or Alpine.js)
+- [x] Make rows hoverable and scannable
+- [ ] Add search functionality
+- [ ] Add team/country filters to stats table
+- [ ] Keep column labels visible while scrolling
+- [ ] Add logo
+- [ ] Improve nav bar
+- [ ] Improve homepage with boxes and logos for regions and news page
+
 
 ### 🔹 Mobile Support
 - [ ] Test layout on mobile

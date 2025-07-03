@@ -2,20 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <link rel="icon" href="{{ url_for('static', filename='logos/nav/SIXINTEL.png') }}" type="image/png">
   <title>{% block title %}SixIntel{% endblock %}</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body class="bg-black text-white min-h-screen">
-  <nav class="bg-black text-white p-4">
-    <div class="max-w-4xl mx-auto flex justify-between">
-      <a href="/" class="font-bold text-lg">SixIntel</a>
-      <div class="space-x-4">
-        <a href="/na" class="hover:underline">NA</a>
-        <a href="/eu" class="hover:underline">EU</a>
+  <nav class="bg-black text-white py-4 shadow-md">
+    <div class="max-w-6xl mx-auto px-4 flex justify-between items-center">
+      <!-- Logo -->
+      <a href="/" class="flex items-center space-x-2">
+        <img src="{{ url_for('static', filename='logos/nav/SIXINTEL.png') }}" alt="SixIntel Logo" class="h-8 w-auto">
+      </a>
+
+      <!-- Region Links with Logos -->
+      <div class="flex space-x-6">
+        {% for region in [
+          {"name": "NA", "code": "na"},
+          {"name": "EU", "code": "eu"}
+        ] %}
+        <a href="/{{ region.code }}" class="flex items-center space-x-1 hover:opacity-80 transition">
+          <img src="{{ url_for('static', filename='logos/nav/' + region.name + '.png') }}" alt="{{ region.name }} Logo" class="h-6 w-auto">
+          <span class="hidden sm:inline text-sm font-medium">{{ region.name }}</span>
+        </a>
+        {% endfor %}
       </div>
     </div>
   </nav>
+
 
   <main class="{% block main_class %}max-w-4xl mx-auto mt-8 px-4{% endblock %}">
     {% block content %}{% endblock %}

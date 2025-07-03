@@ -1,10 +1,19 @@
 {% extends "layout.html" %}
 {% block title %}Welcome | SixIntel{% endblock %}
 {% block content %}
-<h1 class="text-3xl font-bold mb-6">Welcome to SixIntel</h1>
-<p class="mb-4">Choose your region:</p>
-<div class="space-x-4">
-  <a href="/na" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">North America</a>
-  <a href="/eu" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded">Europe</a>
+<h1 class="text-3xl font-bold text-center my-10">Select a Region</h1>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-6xl mx-auto px-6">
+  {% for region in [
+    {"name": "North America", "code": "na"},
+    {"name": "Europe", "code": "eu"}
+  ] %}
+  <a href="/{{ region.code }}" class="group rounded-xl bg-gray-900 hover:bg-gray-800 transition shadow-lg p-6 flex flex-col items-center">
+    <img src="{{ url_for('static', filename='logos/nav/' + region.code.upper() + '.png') }}"
+         alt="{{ region.name }} Logo"
+         class="max-h-20 w-auto object-contain mb-4 transition-transform duration-200 group-hover:scale-105" />
+    <span class="text-lg font-semibold text-white group-hover:underline">{{ region.name }}</span>
+  </a>
+  {% endfor %}
 </div>
+
 {% endblock %}
