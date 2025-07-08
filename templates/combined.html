@@ -1,0 +1,180 @@
+{% extends "layout.html" %}
+{% block title %}{{ region }} Overview | SixIntel{% endblock %}
+{% block main_class %}w-screen mt-8 px-0{% endblock %}
+
+{% block content %}
+<h1 class="text-3xl font-bold text-center mb-8">{{ region }} League Overview</h1>
+
+<!-- Alpine.js Container -->
+<div x-data="combinedTables()" class="w-full px-4">
+
+  <!-- Standings Table -->
+  <h2 class="text-2xl font-semibold my-4">Standings</h2>
+  <div class="overflow-x-auto mb-12">
+    <table class="w-full text-sm text-white bg-black border border-gray-700">
+      <thead class="bg-gray-800 text-xs uppercase text-gray-300">
+        <tr>
+          <template x-for="column in standingsColumns" :key="column.key">
+            <th class="p-2 border cursor-pointer select-none" @click="sortStandingsBy(column.key)">
+              <div class="flex items-center justify-center gap-1">
+                <span x-text="column.label"></span>
+                <template x-if="standingsSortKey === column.key">
+                  <span x-text="standingsSortAsc ? '▲' : '▼'"></span>
+                </template>
+              </div>
+            </th>
+          </template>
+        </tr>
+      </thead>
+      <tbody>
+        <template x-for="(team, index) in sortedStandings()" :key="team.team">
+          <tr :class="index % 2 === 0 ? 'bg-black' : 'bg-gray-900'" class="hover:bg-gray-800">
+            <td class="p-2 border text-center" x-text="index + 1"></td>
+            <td class="p-2 border flex items-center gap-2">
+              <img :src="'/static/' + team.logo" alt="Logo" class="w-10 h-10">
+              <span x-text="team.team"></span>
+            </td>
+            <td class="p-2 border text-center" x-text="team.record"></td>
+            <td class="p-2 border text-center" x-text="team.rnd"></td>
+            <td class="p-2 border text-center" x-text="parseInt(team.rd)"></td>
+            <td class="p-2 border text-center" x-text="parseInt(team.points) + 'p'"></td>
+          </tr>
+        </template>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Stats Table -->
+  <h2 class="text-2xl font-semibold my-4">Player Stats</h2>
+  <div class="overflow-x-auto">
+    <table class="w-full text-sm text-white bg-black border border-gray-700">
+      <thead class="bg-gray-800 text-xs uppercase text-gray-300">
+        <tr>
+          <th class="px-3 py-2">Country</th>
+          <th class="px-3 py-2">Team</th>
+          <th class="px-3 py-2">Player</th>
+          <template x-for="column in statsColumns" :key="column.key">
+            <th class="px-3 py-2 cursor-pointer select-none" @click="sortStatsBy(column.key)">
+              <div class="flex items-center gap-1 justify-center">
+                <span x-text="column.label"></span>
+                <template x-if="statsSortKey === column.key">
+                  <span x-text="statsSortAsc ? '▲' : '▼'"></span>
+                </template>
+              </div>
+            </th>
+          </template>
+          <th class="px-3 py-2">Attacker</th>
+          <th class="px-3 py-2">Defender</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-gray-700">
+        <template x-for="(player, index) in sortedStats()" :key="player.player">
+          <tr :class="index % 2 === 0 ? 'bg-black' : 'bg-gray-900'" class="transition-colors duration-200 hover:bg-gray-800">
+            <td class="px-3 py-2">
+              <img :src="'/static/' + player.country_flag" :alt="player.country" class="h-5 w-7 rounded-sm">
+            </td>
+            <td class="px-3 py-2">
+              <img :src="'/static/' + player.team_logo" alt="Team Logo" class="h-6 w-6 rounded-sm">
+            </td>
+            <td class="px-3 py-2 font-medium text-blue-400" x-text="player.player"></td>
+            <td class="px-3 py-2 text-center" x-text="player.rating"></td>
+            <td class="px-3 py-2 text-center" x-text="player.k_d"></td>
+            <td class="px-3 py-2 text-center" x-text="player.entry"></td>
+            <td class="px-3 py-2 text-center" x-text="player.maps"></td>
+            <td class="px-3 py-2 text-center" x-text="player.kost"></td>
+            <td class="px-3 py-2 text-center" x-text="player.kpr"></td>
+            <td class="px-3 py-2 text-center" x-text="player.srv"></td>
+            <td class="px-3 py-2 text-center" x-text="player.clutches"></td>
+            <td class="px-3 py-2 text-center" x-text="player.plants"></td>
+            <td class="px-3 py-2 text-center" x-text="player.disables"></td>
+            <td class="px-3 py-2 text-center" x-text="player.hs_percent + '%'"></td>
+            <td class="px-3 py-2 text-center" x-text="player.attacker"></td>
+            <td class="px-3 py-2 text-center" x-text="player.defender"></td>
+          </tr>
+        </template>
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+<!-- Alpine.js -->
+<script>
+function combinedTables() {
+  return {
+    statsData: JSON.parse('{{ stats | tojson | safe }}'),
+    standingsData: JSON.parse('{{ standings | tojson | safe }}'),
+
+    // STATS SORTING
+    statsSortKey: 'rating',
+    statsSortAsc: false,
+    statsColumns: [
+      { key: 'rating', label: 'Rating' },
+      { key: 'k_d', label: 'K-D' },
+      { key: 'entry', label: 'Entry' },
+      { key: 'maps', label: 'Maps' },
+      { key: 'kost', label: 'KOST' },
+      { key: 'kpr', label: 'KPR' },
+      { key: 'srv', label: 'SRV' },
+      { key: 'clutches', label: 'Clutches' },
+      { key: 'plants', label: 'Plants' },
+      { key: 'disables', label: 'Disables' },
+      { key: 'hs_percent', label: 'HS%' },
+    ],
+    sortStatsBy(key) {
+      if (this.statsSortKey === key) {
+        this.statsSortAsc = !this.statsSortAsc;
+      } else {
+        this.statsSortKey = key;
+        this.statsSortAsc = false;
+      }
+    },
+    sortedStats() {
+      return this.statsData.slice().sort((a, b) => {
+        const valA = this.parseValue(a[this.statsSortKey]);
+        const valB = this.parseValue(b[this.statsSortKey]);
+        return this.statsSortAsc ? valA - valB : valB - valA;
+      });
+    },
+
+    // STANDINGS SORTING
+    standingsSortKey: 'points',
+    standingsSortAsc: false,
+    standingsColumns: [
+      { key: 'index', label: '#' },
+      { key: 'team', label: 'Team' },
+      { key: 'record', label: 'Record' },
+      { key: 'rnd', label: 'RND' },
+      { key: 'rd', label: 'RD' },
+      { key: 'points', label: 'Pts' },
+    ],
+    sortStandingsBy(key) {
+      if (this.standingsSortKey === key) {
+        this.standingsSortAsc = !this.standingsSortAsc;
+      } else {
+        this.standingsSortKey = key;
+        this.standingsSortAsc = false;
+      }
+    },
+    sortedStandings() {
+      const key = this.standingsSortKey;
+      if (key === 'index') return this.standingsData;
+
+      return this.standingsData.slice().sort((a, b) => {
+        const valA = this.parseValue(a[key]);
+        const valB = this.parseValue(b[key]);
+        return this.standingsSortAsc ? valA - valB : valB - valA;
+      });
+    },
+
+    parseValue(val) {
+      if (typeof val === 'string') {
+        const match = val.match(/(-?\d+\.?\d*)/);
+        return match ? parseFloat(match[1]) : 0;
+      }
+      return typeof val === 'number' ? val : 0;
+    },
+  };
+}
+</script>
+{% endblock %}
