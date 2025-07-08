@@ -18,8 +18,8 @@
       <!-- Region Links with Logos -->
       <div class="flex space-x-6">
         {% for region in [
-          {"name": "na", "code": "na"},
-          {"name": "eu", "code": "eu"}
+          {"name": "NA", "code": "NA"},
+          {"name": "EU", "code": "EU"}
         ] %}
         <a href="/{{ region.code }}" class="flex items-center space-x-1 hover:opacity-80 transition">
           <img src="{{ url_for('static', filename='logos/nav/' + region.name + '.png') }}" alt="{{ region.name }} Logo" class="h-6 w-auto">
