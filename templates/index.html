@@ -4,8 +4,8 @@
 <h1 class="text-3xl font-bold text-center my-10">Select a Region</h1>
 <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-6xl mx-auto px-6">
   {% for region in [
-    {"name": "North America", "code": "na"},
-    {"name": "Europe", "code": "eu"}
+    {"name": "na", "code": "na"},
+    {"name": "eu", "code": "eu"}
   ] %}
   <a href="/{{ region.code }}" class="group rounded-xl bg-gray-900 hover:bg-gray-800 transition shadow-lg p-6 flex flex-col items-center">
     <img src="{{ url_for('static', filename='logos/nav/' + region.code.upper() + '.png') }}"
