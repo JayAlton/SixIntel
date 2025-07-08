@@ -3,80 +3,80 @@
     "logo": "logos/eu/TeamSecret.png",
     "team": "Team Secret",
     "record": "5-0-2-1",
-    "rnd": "35-36",
-    "rd": "-1",
-    "points": "10"
+    "rnd": "N/A",
+    "rd": "11",
+    "points": "17"
   },
   {
     "logo": "logos/eu/TeamFalcons.png",
     "team": "Team Falcons",
     "record": "6-0-0-2",
-    "rnd": "33-22",
-    "rd": "11",
-    "points": "9"
+    "rnd": "N/A",
+    "rd": "19",
+    "points": "18"
   },
   {
     "logo": "logos/eu/G2Esports.png",
     "team": "G2 Esports",
     "record": "5-2-1-0",
-    "rnd": "43-27",
-    "rd": "16",
-    "points": "9"
+    "rnd": "N/A",
+    "rd": "22",
+    "points": "20"
   },
   {
     "logo": "logos/eu/Virtus.pro.png",
     "team": "Virtus.pro",
     "record": "4-1-1-2",
-    "rnd": "38-27",
-    "rd": "11",
-    "points": "8"
+    "rnd": "N/A",
+    "rd": "14",
+    "points": "15"
   },
   {
     "logo": "logos/eu/MACKOEsports.png",
     "team": "MACKO Esports",
     "record": "3-2-0-3",
-    "rnd": "44-41",
-    "rd": "3",
-    "points": "7"
+    "rnd": "N/A",
+    "rd": "-4",
+    "points": "13"
   },
   {
     "logo": "logos/eu/TeamBDS.png",
     "team": "Team BDS",
     "record": "1-2-1-4",
-    "rnd": "39-37",
-    "rd": "2",
-    "points": "6"
+    "rnd": "N/A",
+    "rd": "-5",
+    "points": "8"
   },
   {
     "logo": "logos/eu/Fnatic.png",
     "team": "Fnatic",
     "record": "2-0-1-5",
-    "rnd": "33-38",
-    "rd": "-5",
-    "points": "4"
+    "rnd": "N/A",
+    "rd": "-12",
+    "points": "7"
   },
   {
     "logo": "logos/eu/WolvesEsports.png",
     "team": "Wolves Esports",
     "record": "2-0-0-6",
-    "rnd": "33-44",
-    "rd": "-11",
-    "points": "3"
+    "rnd": "N/A",
+    "rd": "-16",
+    "points": "6"
   },
   {
     "logo": "logos/eu/Gen.GEsports.png",
     "team": "Gen.G Esports",
     "record": "1-2-2-3",
-    "rnd": "33-43",
-    "rd": "-10",
-    "points": "3"
+    "rnd": "N/A",
+    "rd": "-9",
+    "points": "9"
   },
   {
     "logo": "logos/eu/WYLDE.png",
     "team": "WYLDE",
     "record": "2-0-1-5",
-    "rnd": "23-39",
-    "rd": "-16",
-    "points": "1"
+    "rnd": "N/A",
+    "rd": "-20",
+    "points": "7"
   }
 ]
