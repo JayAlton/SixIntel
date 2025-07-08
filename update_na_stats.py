@@ -33,6 +33,9 @@ def update_team(team, scored, conceded):
     team["rnd"] = f"{sr}-{sc}"
     team["rd"] = str(sr - sc)
 
+    # Update points: 3 per win, 0 per loss (basic format)
+    team["points"] = str(wins * 3 + ot_wins * 2 + ot_losses * 1)
+
 def main():
     print("== Match Setup ==")
     team1_name = input("Team 1 name: ").strip()
@@ -75,6 +78,8 @@ def main():
         player["maps"] = maps_played
 
         print(f"  Updated {player_name}'s kills, deaths, k/d, and maps played.")
+
+    teams.sort(key=lambda t: (int(t["points"]), int(t["rd"])), reverse=True)
 
     # Save back the data
     with open("data/na_stats.json", "w") as f:

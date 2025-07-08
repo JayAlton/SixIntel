@@ -9,11 +9,16 @@ app = Flask(__name__)
 def landing():
     return render_template("index.html")
 
-@app.route('/<region>')
-def region_home(region):
-    if region not in ['na', 'eu']:
-        return "Region not found", 404
-    return render_template('region_home.html', region=region.upper())
+@app.route("/<region>")
+def region_stats(region):
+    with open(f"data/{region}_standings.json") as f:
+        standings = json.load(f)
+
+    # Sort by points (int), then rd (int), both descending
+    standings.sort(key=lambda t: (int(t["points"]), int(t["rd"])), reverse=True)
+
+    return render_template("standings.html", region=region.upper(), standings=standings)
+
 
 @app.route('/<region>/standings')
 def region_standings(region):
