@@ -11,7 +11,7 @@ def landing():
 
 @app.route('/<region>')
 def region_home(region):
-    if region not in ['na', 'eu']:
+    if region not in ['NA', 'EU']:
         return "Region not found", 404
     return render_template('region_home.html', region=region.upper())
 
