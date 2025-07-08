@@ -72,7 +72,7 @@
 - [x] Prepare app for production using `gunicorn` or `waitress`
 - [x] Host on AWS (EC2 or Lightsail) or Linode
 - [x] Set up custom domain 
-- [ ] Set up HTTPS (via Certbot)
+- [x] Set up HTTPS (via Certbot)
 - [ ] Run ads
 
 ## 📝 Project Management
