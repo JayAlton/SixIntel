@@ -2,82 +2,81 @@
   {
     "logo": "logos/eu/TeamSecret.png",
     "team": "Team Secret",
-    "record": "3-0-1-0",
-    "rnd": "27-21",
-    "rd": "+6",
+    "record": "3-0-1-1",
+    "rnd": "29-28",
+    "rd": "1",
     "points": "10"
   },
   {
     "logo": "logos/eu/TeamFalcons.png",
     "team": "Team Falcons",
-    "record": "3-0-0-1",
-    "rnd": "23-13",
-    "rd": "+10",
+    "record": "4-0-0-1",
+    "rnd": "30-15",
+    "rd": "15",
     "points": "9"
   },
   {
     "logo": "logos/eu/G2Esports.png",
     "team": "G2 Esports",
-    "record": "2-1-1-0",
-    "rnd": "29-20",
-    "rd": "+9",
+    "record": "3-1-1-0",
+    "rnd": "36-23",
+    "rd": "13",
     "points": "9"
   },
   {
     "logo": "logos/eu/Virtus.pro.png",
     "team": "Virtus.pro",
-    "record": "2-1-0-1",
-    "rnd": "27-19",
-    "rd": "+8",
+    "record": "3-1-0-2",
+    "rnd": "38-27",
+    "rd": "11",
     "points": "8"
   },
   {
     "logo": "logos/eu/MACKOEsports.png",
     "team": "MACKO Esports",
-    "record": "1-2-0-1",
-    "rnd": "26-26",
-    "rd": "0",
+    "record": "2-2-0-1",
+    "rnd": "40-34",
+    "rd": "6",
     "points": "7"
   },
   {
     "logo": "logos/eu/TeamBDS.png",
     "team": "Team BDS",
-    "record": "1-1-1-1",
-    "rnd": "26-24",
-    "rd": "+2",
+    "record": "2-1-1-2",
+    "rnd": "39-37",
+    "rd": "2",
     "points": "6"
   },
   {
     "logo": "logos/eu/Fnatic.png",
     "team": "Fnatic",
-    "record": "1-0-1-2",
-    "rnd": "23-26",
-    "rd": "-3",
+    "record": "2-0-1-3",
+    "rnd": "33-38",
+    "rd": "-5",
     "points": "4"
   },
   {
     "logo": "logos/eu/WolvesEsports.png",
     "team": "Wolves Esports",
-    "record": "1-0-0-3",
-    "rnd": "18-26",
-    "rd": "-8",
+    "record": "2-0-0-4",
+    "rnd": "33-44",
+    "rd": "-11",
     "points": "3"
   },
   {
     "logo": "logos/eu/Gen.GEsports.png",
     "team": "Gen.G Esports",
-    "record": "0-1-1-2",
-    "rnd": "19-29",
-    "rd": "-10",
+    "record": "0-1-1-3",
+    "rnd": "25-37",
+    "rd": "-12",
     "points": "3"
   },
   {
     "logo": "logos/eu/WYLDE.png",
     "team": "WYLDE",
-    "record": "0-0-1-3",
-    "rnd": "15-29",
-    "rd": "-14",
+    "record": "0-0-1-4",
+    "rnd": "16-36",
+    "rd": "-20",
     "points": "1"
   }
 ]
-

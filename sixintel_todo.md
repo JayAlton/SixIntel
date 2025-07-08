@@ -44,7 +44,8 @@
 - [ ] Keep column labels visible while scrolling
 - [ ] Add logo
 - [ ] Improve nav bar
-- [ ] Improve homepage with boxes and logos for regions and news page
+- [ ] Improve homepage with boxes and logos for regions
+- [ ] news page with youtube links to esports creators
 
 
 ### 🔹 Mobile Support
