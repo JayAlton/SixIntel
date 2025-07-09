@@ -9,26 +9,21 @@ app = Flask(__name__)
 def landing():
     return render_template("index.html")
 
-@app.route('/<region>/overview')
-def region_overview(region):
+@app.route('/<region>')
+def region_combined(region):
+    region = region.upper()
     if region not in ['NA', 'EU']:
         return "Region not found", 404
 
-    # Load standings (from scraper or file)
     try:
-        standings = get_r6_standings(region)
-    except Exception:
-        standings = []
-
-    # Load stats from JSON file
-    try:
-        file_path = os.path.join("data", f"{region.lower()}_stats.json")
-        with open(file_path, "r") as f:
+        with open(f"data/{region.lower()}_stats.json") as f:
             stats = json.load(f)
+        with open(f"data/{region.lower()}_standings.json") as f:
+            standings = json.load(f)
     except FileNotFoundError:
-        stats = []
+        return "Data not found", 404
 
-    return render_template('combined.html', region=region.upper(), standings=standings, stats=stats)
+    return render_template("combined.html", region=region, stats=stats, standings=standings)
 
 if __name__ == "__main__":
     app.run(debug=True)
